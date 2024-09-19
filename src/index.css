@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+  width: 100vw; 
+  max-width: 1680px;
+  margin: 0 auto;
+  text-align: center;
+  height: 100%;
+  size: 18px;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
